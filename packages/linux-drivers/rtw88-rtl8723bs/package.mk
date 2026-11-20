@@ -17,7 +17,7 @@ make_target() {
 }
 
 makeinstall_target() {
-  local module_dir="${INSTALL}/$(get_full_module_dir)/updates/${PKG_NAME}"
+  local module_dir="${INSTALL}/$(get_full_module_dir)/kernel/drivers/net/wireless/realtek/rtw88"
   local firmware_dir="${INSTALL}/$(get_full_firmware_dir)/rtw88"
 
   mkdir -p "${module_dir}"
