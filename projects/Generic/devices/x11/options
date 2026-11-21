@@ -23,7 +23,7 @@
   # set the addon project
     ADDON_PROJECT="Generic-legacy"
 
-  # Graphic drivers to use (all / crocus,i915,iris,radeonsi,nvidia,vmware,virtio)
+  # Graphic drivers to use (all / crocus,i915,iris,radeonsi,vmware,virtio)
   # Space separated list is supported,
-  # e.g. GRAPHIC_DRIVERS="crocus i915 iris radeonsi nvidia vmware virtio"
-    GRAPHIC_DRIVERS="crocus i915 iris radeonsi nvidia vmware virtio"
+  # e.g. GRAPHIC_DRIVERS="crocus i915 iris radeonsi vmware virtio"
+    GRAPHIC_DRIVERS="crocus i915 iris radeonsi vmware virtio"
